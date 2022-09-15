@@ -1,0 +1,12 @@
+/datasets
+/data
+data
+datasets
+LICENSE
+README.md
+__pycache__
+/mini-imagenet*
+/omniglot*
+/result
+/cifar-fs*
+
