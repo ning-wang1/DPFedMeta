@@ -2,8 +2,9 @@
 Code for paper 'Squeezing More Utility via Adaptive Clipping on Deferentially Private Gradients in Federated Meta-Learning' ACSAC 2022
 
 ## The running platform
-We ran all our experiments on a server equipped with a 3.3 GHz Intel Core i9-9820X CPU, three GeForce RTX 2080 Ti GPUs, and Ubuntu 18.04.3 LTS.
-Deep Learning platform: Pytorch 1.4.0, python 3.6.10. ()
+Hardware: a server equipped with a 3.3 GHz Intel Core i9-9820X CPU, three GeForce RTX 2080 Ti GPUs, and Ubuntu 18.04.3 LTS.
+
+Deep Learning platform: Pytorch 1.4.0, python 3.6.10. (See the next part 'prepare the environment' to get ready for the software)
 
 
 ## Prepare the environment
