@@ -30,7 +30,12 @@ Download the repository to your local machine
 The downloaded folder is named as 'DPFedMeta', I'll call this folder by the project folder in the following. The folder structure is:
 
 ```bash
-├── app
+├── checkpoint
+├── experiment_config
+├── experiment_scripts
+├── result
+├── tfcode
+├── utils
 │   ├── css
 │   │   ├── **/*.css
 │   ├── favicon.ico
@@ -39,15 +44,20 @@ The downloaded folder is named as 'DPFedMeta', I'll call this folder by the proj
 │   ├── js
 │   │   ├── **/*.js
 │   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
+├── .gitignore
+├── base_experiment.py
+├── data.py
+├── data_tasks_split.py
+├── df_few_shot_learning_system.py
+├── df_few_shot_learning_system_example_level_single.py
+├── DPAGR.py
+├── DPAGRLR.py
+├── environment.yml
+├── experiment_builder.py
+├── inner_loop_optimizer.py
+├── meta_neural_network_architectures.py
 ├── README.md
-├── package.json
-├── bower.json (if using bower)
-└── .gitignore
+└── vgg.py
 ```
 
 
