@@ -10,9 +10,9 @@ We ran all our experiments on a server equipped with a 3.3 GHz Intel Core i9-982
 2.  Create your env using the yml file by the command line: conda env create -n envname --file environment.yml. All the required libraries (including pytorch and python) will be implemented. The environment is named as 'myenv' as specified in the yml file.
 3. activate your environment. Use: conda activate envname
 
-## Run the experiment
-### go to the folder experiment_scripts: cd experiment_scripts
-### run the training 
+## Run the experiment 
+1. go to the folder experiment_scripts: cd experiment_scripts
+2. run the training 
 * omniglot dataset use omniglot_5_8_0.1_64_5_0_few_shot.sh
 * imagenet dataset use bash mini-imagenet_5_2_0.01_48_5_0_few_shot.sh 
 * cifar-100 dataset use cifar-fs_5_8_0.01_48_5_0_few_shot
