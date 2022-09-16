@@ -5,12 +5,15 @@ Code for paper 'Squeezing More Utility via Adaptive Clipping on Deferentially Pr
 We ran all our experiments on a server equipped with a 3.3 GHz Intel Core i9-9820X CPU, three GeForce RTX 2080 Ti GPUs, and Ubuntu 18.04.3 LTS. we are using  Pytorch 1.4.0 python, python 3.6.10.
 
 
-## prepare the environment
+## Prepare the environment
 1. Implement annoconda following the instruction in https://www.anaconda.com/. Anaconda will help to manage the learning environement.
 2.  Create your env using the yml file. All the required libraries (including pytorch and python) will be implemented. The environment is named as 'myenv' as specified in the yml file.
 -      conda env create --file environment.yml
 3. activate your environment. 
 -      conda activate envname
+
+## Prepare the data
+We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [3].
 
 ## Run the experiment 
 1. go to the folder experiment_scripts: cd experiment_scripts
