@@ -92,6 +92,9 @@ Be sure to coordnate your reference path and the dataset path.
 
 for Omniglot dataset:
 -       bash omniglot_DPAGR.sh
+
+for 
+
 -       mini_ImageNet dataset: bash mini-imagenet_DPAGR.sh 
 -       CIFAR-FS dataset: bash cifar-fs_DPAGR.sh
 
