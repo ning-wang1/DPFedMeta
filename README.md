@@ -6,6 +6,7 @@ Code for paper 'Squeezing More Utility via Adaptive Clipping on Deferentially Pr
 - **Operating system:** Ubuntu 18.04.3 LTS (a different version of Ubuntu is ok if it support the Pytorch deep learning framewotk)
 - **Deep learning framework:** Pytorch 1.4.0
 - **Language:** Python 3.6.10
+See "**Prepare the environment**" to set up Pytorch 1.4.0 and Python 3.6.10.
 
 
 ## Prepare the environment
