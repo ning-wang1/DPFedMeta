@@ -35,9 +35,9 @@ We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [
 1. Create a folder in your project and name it as 'datasets'
 2. Download the datasets from the above links
 3. Rename each download dataset in case its default name is different from that used in the code.
-i. name the ominiglot dataset as *omniglot_dataset*
-ii. name the CIFAR-FS dataset as *cifar_100*
-iii. name the mini-ImageNet dataset as 'mini_imagenet_full_size'
+1. name the ominiglot dataset as *omniglot_dataset*
+2. name the CIFAR-FS dataset as *cifar_100*
+3. name the mini-ImageNet dataset as 'mini_imagenet_full_size'
 
 
 [1] Brenden M Lake et al. 2015. Human-level concept learning through probabilistic program induction. Science 350, 6266 (2015), 1332–1338
