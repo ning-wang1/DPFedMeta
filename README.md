@@ -15,6 +15,10 @@ We ran all our experiments on a server equipped with a 3.3 GHz Intel Core i9-982
 ## Prepare the data
 We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [3].
 
+[1] Brenden M Lake et al. 2015. Human-level concept learning through probabilistic program induction. Science 350, 6266 (2015), 1332–1338
+[2] Luca Bertinetto, Joao F Henriques, Philip HS Torr, and Andrea Vedaldi. 2019. Meta-learning with differentiable closed-form solvers. In International Conference on Learning Representations (ICLR 19)
+[3] Oriol Vinyals, Charles Blundell, Timothy Lillicrap, Daan Wierstra, et al . 2016. Matching networks for one shot learning. In Advances in neural information processing systems (NeurIPS 16). 3630–3638
+
 ## Run the experiment 
 1. go to the folder experiment_scripts: cd experiment_scripts
 2. run the training 
