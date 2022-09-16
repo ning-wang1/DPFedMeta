@@ -14,7 +14,7 @@ We ran all our experiments on a server equipped with a 3.3 GHz Intel Core i9-982
 
 ## Prepare the data
 We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [3]. For convenience, the link of the data are listed:
--      [omniglot dataset](/https://www.omniglot.com/)
+-      [omniglot dataset](https://www.omniglot.com/)
 -      CIFAR-FS dataset: https://drive.google.com/file/d/1pTsCCMDj45kzFYgrnO67BWVbKs48Q3NI/view
 -      mini-ImageNet: https://drive.google.com/file/d/1R6dA6QGEW-lmiNkitCwK4IkAbl4uT3y3/view
 
