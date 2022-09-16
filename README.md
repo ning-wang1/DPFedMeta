@@ -18,7 +18,7 @@ This guide includes three steps: NVIDIA Driver installation, CUDA installation, 
 
 ## Prepare the environment
 1. Implement annoconda following the instruction in https://www.anaconda.com/. Anaconda will help to manage the learning environement.
-2.  Create your env using the *environment.yml* file included in the repository. All the required libraries (including pytorch and python) will be implemented. The environment is named as *myenv* as specified in the yml file. Edit the first line of the *environment.yml* file to change the env name.
+2.  Create your env using the *environment.yml* file included in the repository. All the required libraries (including pytorch and python) will be implemented. The default environment name is *myenv* as specified in the yml file. If you would like to use another name, edit the first line of the *environment.yml* file.
 -      conda env create --file environment.yml
 3. activate your environment. 
 -      conda activate envname
