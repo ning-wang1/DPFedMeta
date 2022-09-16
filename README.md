@@ -89,6 +89,7 @@ Be sure to coordnate your reference path and the dataset path.
 ## Run the experiment 
 1. go to the folder experiment_scripts: cd experiment_scripts
 2. Training with DPAGR algorithm that protect user level privacy
+
 for Omniglot dataset:
 -       bash omniglot_DPAGR.sh
 -       mini_ImageNet dataset: bash mini-imagenet_DPAGR.sh 
