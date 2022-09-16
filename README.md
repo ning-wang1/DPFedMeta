@@ -23,6 +23,11 @@ This guide includes three steps: NVIDIA Driver installation, CUDA installation, 
 3. activate your environment. 
 -      conda activate envname
 
+
+## Download the source code
+Download the repository to your local machine
+-      git clone conda env create --file environment.yml
+
 ## Download the datasets
 We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [3]. For convenience, the link to download the data are listed:
 
@@ -35,9 +40,10 @@ We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [
 1. Create a folder in your project and name it as 'datasets'
 2. Download the datasets from the above links
 3. Rename each download dataset in case its default name is different from that used in the code.
-    1. name the ominiglot dataset as *omniglot_dataset*
-    2. name the CIFAR-FS dataset as *cifar_100*
-    3. name the mini-ImageNet dataset as 'mini_imagenet_full_size'
+    1. name the ominiglot dataset as *'omniglot_dataset'*
+    2. name the CIFAR-FS dataset as *'cifar_100'*
+    3. name the mini-ImageNet dataset as *'mini_imagenet_full_size'*
+Be sure to coordnate your reference path and the dataset path.
 
 
 [1] Brenden M Lake et al. 2015. Human-level concept learning through probabilistic program induction. Science 350, 6266 (2015), 1332–1338
@@ -49,8 +55,8 @@ We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [
 ## Run the experiment 
 1. go to the folder experiment_scripts: cd experiment_scripts
 2. run the training 
--      omniglot dataset: bash omniglot_5_8_0.1_64_5_0_few_shot.sh
--      imagenet dataset: bash mini-imagenet_5_2_0.01_48_5_0_few_shot.sh 
--      cifar-100 dataset: bash cifar-fs_5_8_0.01_48_5_0_few_shot
+-      Omniglot dataset: bash omniglot_5_8_0.1_64_5_0_few_shot.sh
+-      mini_ImageNet dataset: bash mini-imagenet_5_2_0.01_48_5_0_few_shot.sh 
+-      CIFAR-FS dataset: bash cifar-fs_5_8_0.01_48_5_0_few_shot
 
 
