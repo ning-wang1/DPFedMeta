@@ -116,4 +116,17 @@ for CIFAR-FS dataset:
 -       bash cifar-fs_DPAGRLR.sh
 
 
+These command will produce the test accuracy shown in Table 2 of the paper.
 
+##  Estimated  Running Time 
+
+The running time of  DPAGR
+| Dataset          |     Running time    |  
+|----------------------|:---------------------------:|
+|omniglot          |         6h                | 
+| cifar-fs           |         6h                |   
+| mini-imagenet |         3.5h             |  
+
+The running time of  DPAGRLR will be a little lower than DPAGR.
+
+Different GPU would lead to quite different running time.

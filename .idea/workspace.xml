@@ -1,70 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7eb240b8-4ab2-4299-bbf2-f43c508e1883" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DPAGRLR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compute_dp_sgd_privacy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_few_shot_learning_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_few_shot_learning_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_few_shot_learning_system_example_level.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_parameters_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/cifar-fs_1_8_0.01_48_5_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_config/cifar-fs_1_8_0.01_48_5_0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/mini-imagenet_1_2_0.01_48_5_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_config/mini-imagenet_1_2_0.01_48_5_0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/omniglot_1_8_0.1_64_5_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_config/omniglot_1_8_0.1_64_5_0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/others/cifar-fs_1_8_0.01_48_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/others/cifar-fs_5_8_0.01_48_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/others/mini-imagenet_1_2_0.01_48_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/others/mini-imagenet_5_2_0.01_48_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/others/mini-imagenet_maml++-mini-imagenet_5_2_0.01_48_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/others/omniglot_1_8_0.1_64_20_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/others/omniglot_1_8_0.1_64_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/others/omniglot_5_8_0.1_64_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/saved_task_level/cifar-fs_1_8_0.01_48_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/saved_task_level/cifar-fs_5_8_0.01_48_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/saved_task_level/mini-imagenet_1_2_0.01_48_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/saved_task_level/mini-imagenet_5_2_0.01_48_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/saved_task_level/omniglot_1_8_0.1_64_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/saved_task_level/omniglot_5_8_0.1_64_5_0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/task_generate/cifar-fs_5_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/task_generate/cifar-fs_5_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/task_generate/mini-imagenet_5_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/task_generate/mini-imagenet_5_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/task_generate/omniglot_5_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_config/task_generate/omniglot_5_5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_scripts/cifar-fs_1_8_0.01_48_5_0_few_shot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_scripts/cifar-fs_5_8_0.01_48_5_0_few_shot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_scripts/mini-imagenet_1_2_0.01_48_5_0_few_shot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_scripts/mini-imagenet_5_2_0.01_48_5_0_few_shot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_scripts/mini-imagenet_5_5_no-dp.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_scripts/omniglot_1_8_0.1_64_20_0_few_shot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_scripts/omniglot_1_8_0.1_64_5_0_few_shot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_scripts/omniglot_5_5.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment_scripts/omniglot_5_8_0.1_64_5_0_few_shot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/few_shot_learning_system.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/Differential_privacy_in_meta_learning.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/Dp has disparate impact on model accuracy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/How+to+train+your+MAML.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/M ETA - LEARNING WITH&#10;DIFFERENTIABLE CLOSED - FORM SOLVERS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/Model-Agnostic+Meta-Learning+for+Fast+Adaptation+of+Deep+Networks.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/a general approach to adding DP.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/collaborative learning.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/dp_dl.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/efficient per example gradient computations.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/efficient per example.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/federated meta_learning.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/meta learning  and DP-meta learning.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/meta+learning.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/meta_sgd.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/papers/tadam.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/param_relationship.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/param_relationship2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_dp_maml_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/DPAGR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_maml_system.py" beforeDir="false" />
-    </list>
+    <list default="true" id="7eb240b8-4ab2-4299-bbf2-f43c508e1883" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663262977101</updated>
       <workItem from="1663262984472" duration="187000" />
-      <workItem from="1663287955220" duration="7254000" />
+      <workItem from="1663287955220" duration="8017000" />
     </task>
     <servers />
   </component>
