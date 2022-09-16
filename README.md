@@ -88,7 +88,7 @@ Be sure to coordnate your reference path and the dataset path.
 
 ## Run the experiment 
 1. go to the folder experiment_scripts: cd experiment_scripts
-2. Training with DPAGR algorithm that protect user level privacy
+2. Training with DPAGR algorithm which protects user level privacy
 
 for Omniglot dataset:
 -       bash omniglot_DPAGR.sh
@@ -101,7 +101,7 @@ for CIFAR-FS dataset:
 
 -       bash cifar-fs_DPAGR.sh
 
-3. Training with DPAGRLR algorithm that protect both user level privacy and record level privacy
+3. Training with DPAGRLR algorithm which protects both user level privacy and record level privacy
 
 for Omniglot dataset: 
 
