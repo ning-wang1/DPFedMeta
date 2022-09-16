@@ -29,7 +29,7 @@ Download the repository to your local machine
 -      git clone git@github.com:ning-wang1/DPFedMeta.git
 The downloaded folder is named as 'DPFedMeta', I'll call this folder by the project folder in the following. The folder structure is:
 
-```bash
+```
 ├── checkpoint
 ├── experiment_config
 ├── experiment_scripts
