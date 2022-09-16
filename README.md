@@ -27,6 +27,29 @@ This guide includes three steps: NVIDIA Driver installation, CUDA installation, 
 ## Download the source code
 Download the repository to your local machine
 -      git clone git@github.com:ning-wang1/DPFedMeta.git
+The downloaded folder is named as 'DPFedMeta', I'll call this folder by the project folder in the following. The folder structure is:
+
+```bash
+├── app
+│   ├── css
+│   │   ├── **/*.css
+│   ├── favicon.ico
+│   ├── images
+│   ├── index.html
+│   ├── js
+│   │   ├── **/*.js
+│   └── partials/template
+├── dist (or build)
+├── node_modules
+├── bower_components (if using bower)
+├── test
+├── Gruntfile.js/gulpfile.js
+├── README.md
+├── package.json
+├── bower.json (if using bower)
+└── .gitignore
+```
+
 
 ## Download the datasets
 We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [3]. For convenience, the link to download the data are listed:
@@ -37,7 +60,7 @@ We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [
 
 [mini-ImageNet dataset](https://drive.google.com/file/d/1R6dA6QGEW-lmiNkitCwK4IkAbl4uT3y3/view)
 
-1. Create a folder in your project and name it as 'datasets'
+1. Create a folder in your project folder and name it as 'datasets'
 2. Download the datasets from the above links
 3. Rename each download dataset in case its default name is different from that used in the code.
     1. name the ominiglot dataset as *'omniglot_dataset'*
