@@ -26,7 +26,7 @@ This guide includes three steps: NVIDIA Driver installation, CUDA installation, 
 
 ## Download the source code
 Download the repository to your local machine
--      git clone conda env create --file environment.yml
+-      git clone git@github.com:ning-wang1/DPFedMeta.git
 
 ## Download the datasets
 We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [3]. For convenience, the link to download the data are listed:
