@@ -9,8 +9,8 @@ Code for paper 'Squeezing More Utility via Adaptive Clipping on Deferentially Pr
 
 See "**Prepare the environment**" to set up Pytorch 1.4.0 and Python 3.6.10. Please read step by step to get ready for running the code.
 
-## setup GPU for deep learning
-If you have already set up your GPU for deep learning, please ignore this step.
+## Setup GPU for deep learning
+If you have already set up your GPU for deep learning, please ignore this step and go to "Prepare the environment".
 
 A guide is available by [Deep Learning GPU Installation](https://towardsdatascience.com/deep-learning-gpu-installation-on-ubuntu-18-4-9b12230a1d31).
 This guide includes three steps: NVIDIA Driver installation, CUDA installation, and CUDNN installation. 
