@@ -13,11 +13,8 @@ We ran all our experiments on a server equipped with a 3.3 GHz Intel Core i9-982
 ## Run the experiment 
 1. go to the folder experiment_scripts: cd experiment_scripts
 2. run the training 
-Markup: * omniglot dataset use omniglot_5_8_0.1_64_5_0_few_shot.sh
-        * imagenet dataset use bash mini-imagenet_5_2_0.01_48_5_0_few_shot.sh 
-        * cifar-100 dataset use cifar-fs_5_8_0.01_48_5_0_few_shot
-Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+       -omniglot dataset use omniglot_5_8_0.1_64_5_0_few_shot.sh
+       -imagenet dataset use bash mini-imagenet_5_2_0.01_48_5_0_few_shot.sh 
+       -cifar-100 dataset use cifar-fs_5_8_0.01_48_5_0_few_shot
+
 
