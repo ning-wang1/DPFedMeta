@@ -29,7 +29,7 @@ Download the repository to your local machine
 -      git clone git@github.com:ning-wang1/DPFedMeta.git
 The downloaded folder is named as 'DPFedMeta', I'll call this folder by the project folder in the following. The folder structure is:
 
-```
+```bash
 ├── checkpoint
 ├── experiment_config
 ├── experiment_scripts
@@ -51,7 +51,7 @@ The downloaded folder is named as 'DPFedMeta', I'll call this folder by the proj
 ├── data_tasks_split.py
 ├── df_few_shot_learning_system.py
 ├── df_few_shot_learning_system_example_level_single.py
-├── *DPAGR.py*
+├── DPAGR.py
 ├── DPAGRLR.py
 ├── environment.yml
 ├── experiment_builder.py
@@ -60,7 +60,7 @@ The downloaded folder is named as 'DPFedMeta', I'll call this folder by the proj
 ├── README.md
 └── vgg.py
 ```
-
+The main functions are DPAGR.py and DPAGRLR.py
 
 ## Download the datasets
 We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [3]. For convenience, the link to download the data are listed:
@@ -88,9 +88,15 @@ Be sure to coordnate your reference path and the dataset path.
 
 ## Run the experiment 
 1. go to the folder experiment_scripts: cd experiment_scripts
-2. run the training 
--      Omniglot dataset: bash omniglot_5_8_0.1_64_5_0_few_shot.sh
--      mini_ImageNet dataset: bash mini-imagenet_5_2_0.01_48_5_0_few_shot.sh 
--      CIFAR-FS dataset: bash cifar-fs_5_8_0.01_48_5_0_few_shot
+2. run the training  
+        i. Training with DPAGR algorithm that protect user level privacy
+-      Omniglot dataset: bash omniglot_DPAGR.sh
+-      mini_ImageNet dataset: bash mini-imagenet_DPAGR.sh 
+-      CIFAR-FS dataset: bash cifar-fs_DPAGR.sh
+        ii. Training with DPAGRLR algorithm that protect both user level privacy and record level privacy
+-      Omniglot dataset: bash omniglot_DPAGRLR.sh
+-      mini_ImageNet dataset: bash mini-imagenet_DPAGRLR.sh 
+-      CIFAR-FS dataset: bash cifar-fs_DPAGRLR.sh
+
 
 
