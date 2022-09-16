@@ -93,10 +93,13 @@ Be sure to coordnate your reference path and the dataset path.
 for Omniglot dataset:
 -       bash omniglot_DPAGR.sh
 
-for 
+for mini_ImageNet dataset:
 
--       mini_ImageNet dataset: bash mini-imagenet_DPAGR.sh 
--       CIFAR-FS dataset: bash cifar-fs_DPAGR.sh
+-       bash mini-imagenet_DPAGR.sh 
+
+for CIFAR-FS dataset: 
+
+-       bash cifar-fs_DPAGR.sh
 
 3. Training with DPAGRLR algorithm that protect both user level privacy and record level privacy
       - Omniglot dataset: *bash omniglot_DPAGRLR.sh*
