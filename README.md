@@ -23,14 +23,22 @@ This guide includes three steps: NVIDIA Driver installation, CUDA installation, 
 3. activate your environment. 
 -      conda activate envname
 
-## Prepare the data
-We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [3]. For convenience, the link of the data are listed:
+## Download the datasets
+We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [3]. For convenience, the link to download the data are listed:
 
 [omniglot dataset](https://www.omniglot.com/)
 
 [CIFAR-FS dataset](https://drive.google.com/file/d/1pTsCCMDj45kzFYgrnO67BWVbKs48Q3NI/view)
 
 [mini-ImageNet dataset](https://drive.google.com/file/d/1R6dA6QGEW-lmiNkitCwK4IkAbl4uT3y3/view)
+
+1. Create a folder in your project and name it as 'datasets'
+2. Download the datasets from the above links
+3. Rename each download dataset in case its default name is different from that used in the code.
+i. name the ominiglot dataset as *omniglot_dataset*
+ii. name the CIFAR-FS dataset as *cifar_100*
+iii. name the mini-ImageNet dataset as 'mini_imagenet_full_size'
+
 
 [1] Brenden M Lake et al. 2015. Human-level concept learning through probabilistic program induction. Science 350, 6266 (2015), 1332–1338
 
