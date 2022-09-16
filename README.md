@@ -102,9 +102,18 @@ for CIFAR-FS dataset:
 -       bash cifar-fs_DPAGR.sh
 
 3. Training with DPAGRLR algorithm that protect both user level privacy and record level privacy
-      - Omniglot dataset: *bash omniglot_DPAGRLR.sh*
-      - mini_ImageNet dataset: *bash mini-imagenet_DPAGRLR.sh* 
-      - CIFAR-FS dataset: *bash cifar-fs_DPAGRLR.sh*
+
+for Omniglot dataset: 
+
+-       bash omniglot_DPAGRLR.sh
+
+for mini_ImageNet dataset: 
+
+-       bash mini-imagenet_DPAGRLR.sh
+
+for CIFAR-FS dataset: 
+
+-       bash cifar-fs_DPAGRLR.sh
 
 
 
