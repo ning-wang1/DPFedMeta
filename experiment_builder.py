@@ -299,7 +299,7 @@ class ExperimentBuilder(object):
         accuracy = np.mean(np.equal(per_batch_targets, per_batch_max))
         accuracy_std = np.std(np.equal(per_batch_targets, per_batch_max))
 
-        test_losses = {"test_accuracy_mean": accuracy, "test_accuracy_std": accuracy_std}
+        test_losses = {"test_accuracy_mean": accuracy}
 
         _ = save_statistics(self.logs_filepath,
                             list(test_losses.keys()),

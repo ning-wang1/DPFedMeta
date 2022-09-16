@@ -40,8 +40,8 @@
   "meta_learning_rate":0.01,   "total_epochs_before_pause": 150,
   "first_order_to_second_order_epoch":-1,
 
-  "clip_norm_init": 1.0,
-  "adaptive_clip": false,
+  "clip_norm_init": 0.2,
+  "adaptive_clip": true,
   "noise_multiplier": 1.0,
   "lot_size": 1600,
   "clip_percentile":90,

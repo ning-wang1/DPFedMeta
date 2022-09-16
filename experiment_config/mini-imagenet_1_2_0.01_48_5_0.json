@@ -16,8 +16,8 @@
   "train_val_test_split": [0.64, 0.16, 0.20],
   "evaluate_on_test_set_only": false,
 
-  "total_epochs": 50,
-  "total_iter_per_epoch":120, "continue_from_epoch": -2,
+  "total_epochs": 100,
+  "total_iter_per_epoch":1000, "continue_from_epoch": -2,
   "num_evaluation_tasks":600,
   "multi_step_loss_num_epochs": 15,
   "minimum_per_task_contribution": 0.01,
@@ -34,9 +34,9 @@
   "learnable_bn_beta": true,
 
   "clip_norm_init": 0.3,
-  "adaptive_clip": true,
+  "adaptive_clip": false,
   "noise_multiplier": 1.0,
-  "lot_size": 60,
+  "lot_size": 1600,
   "clip_percentile":90,
 
   "dropout_rate_value":0.0,
@@ -49,12 +49,12 @@
   "cnn_num_filters":48,
   "num_stages":4,
   "conv_padding": true,
-  "number_of_training_steps_per_iter":5,
-  "number_of_evaluation_steps_per_iter":5,
+  "number_of_training_steps_per_iter":3,
+  "number_of_evaluation_steps_per_iter":3,
   "cnn_blocks_per_stage":1,
   "num_classes_per_set":5,
   "num_samples_per_class":5,
-  "num_target_samples": 5,
+  "num_target_samples": 1,
 
   "second_order": true,
   "use_multi_step_loss_optimization":true

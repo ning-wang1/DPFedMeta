@@ -5,7 +5,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from torchsummary import summary
 
 from meta_neural_network_architectures import VGGReLUNormNetwork
 from inner_loop_optimizers import LSLRGradientDescentLearningRule
