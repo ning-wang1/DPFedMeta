@@ -1,4 +1,5 @@
-/datasets
+/datasets/cifar_100
+/datasets/mini_imagenet_full_size
 /data
 data
 datasets
