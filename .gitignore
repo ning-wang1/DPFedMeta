@@ -1,10 +1,6 @@
 /datasets/cifar_100
 /datasets/mini_imagenet_full_size
-/data
-data
-datasets
 LICENSE
-README.md
 __pycache__
 /mini-imagenet*
 /omniglot*
