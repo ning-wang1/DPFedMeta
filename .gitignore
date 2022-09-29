@@ -1,5 +1,6 @@
 /datasets/cifar_100
 /datasets/mini_imagenet_full_size
+/datasets/*.json
 LICENSE
 __pycache__
 /mini-imagenet*
