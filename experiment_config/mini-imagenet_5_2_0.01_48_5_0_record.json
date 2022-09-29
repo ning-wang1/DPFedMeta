@@ -12,7 +12,7 @@
   "experiment_name":"mini-imagenet_5_2_0.01_48_5_0_record",
   "train_seed": 0, "val_seed": 0,
   "indexes_of_folders_indicating_class": [-3, -2],
-  "sets_are_pre_split": true,
+  "sets_are_pre_split": false,
   "train_val_test_split": [0.64, 0.16, 0.20],
   "evaluate_on_test_set_only": false,
 
