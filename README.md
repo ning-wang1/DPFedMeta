@@ -67,7 +67,7 @@ We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [
 
 [omniglot dataset](https://drive.google.com/drive/folders/19lmuqxSzhXMx3swJ4oS_YKoaKYXJqN9Q?usp=sharing)
 
-[CIFAR-FS dataset](https://drive.google.com/file/d/1pTsCCMDj45kzFYgrnO67BWVbKs48Q3NI/view)
+[CIFAR-FS dataset](https://drive.google.com/drive/folders/16UJTm1ikRBmIBXo-tE6UX5jJ-vOWAO-M?usp=sharing)
 
 [mini-ImageNet dataset](https://drive.google.com/file/d/1R6dA6QGEW-lmiNkitCwK4IkAbl4uT3y3/view)
 
