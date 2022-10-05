@@ -575,16 +575,16 @@ class MetaLearningSystemDataLoader(object):
         self.total_train_iters_produced = 0
         self.dataset = FewShotLearningDatasetParallel(args=args)
         self.batches_per_iter = args.samples_per_iter
-        self.full_data_length = self.dataset.data_length
+
         self.continue_from_iter(current_iter=current_iter)
         self.args = args
 
-    def get_dataloader(self):
+    def get_dataloader(self, dataset):
         """
         Returns a data loader with the correct set (train, val or test), continuing from the current iter.
         :return:
         """
-        return DataLoader(self.dataset, batch_size=(self.num_of_gpus * self.batch_size * self.samples_per_iter),
+        return DataLoader(dataset, batch_size=(self.num_of_gpus * self.batch_size * self.samples_per_iter),
                           shuffle=False, num_workers=self.num_workers, drop_last=True)
 
     def continue_from_iter(self, current_iter):
@@ -601,13 +601,13 @@ class MetaLearningSystemDataLoader(object):
         :param augment_images: Whether we want the images to be augmented.
         """
         if total_batches == -1:
-            self.dataset.data_length = self.full_data_length
+            self.dataset.data_length = self.dataset.data_length
         else:
             self.dataset.data_length["train"] = total_batches * self.dataset.batch_size
         self.dataset.switch_set(set_name="train", current_iter=self.total_train_iters_produced)
         self.dataset.set_augmentation(augment_images=augment_images)
         self.total_train_iters_produced += (self.num_of_gpus * self.batch_size * self.samples_per_iter)
-        for sample_id, sample_batched in enumerate(self.get_dataloader()):
+        for sample_id, sample_batched in enumerate(self.get_dataloader(self.dataset)):
             yield sample_batched
 
     def get_val_batches(self, total_batches=-1, augment_images=False):
@@ -617,12 +617,12 @@ class MetaLearningSystemDataLoader(object):
         :param augment_images: Whether we want the images to be augmented.
         """
         if total_batches == -1:
-            self.dataset.data_length = self.full_data_length
+            self.dataset.data_length = self.dataset.data_length
         else:
             self.dataset.data_length['val'] = total_batches * self.dataset.batch_size
         self.dataset.switch_set(set_name="val")
         self.dataset.set_augmentation(augment_images=augment_images)
-        for sample_id, sample_batched in enumerate(self.get_dataloader()):
+        for sample_id, sample_batched in enumerate(self.get_dataloader(self.dataset)):
             yield sample_batched
 
     def get_test_batches(self, total_batches=-1, augment_images=False):
@@ -632,11 +632,11 @@ class MetaLearningSystemDataLoader(object):
         :param augment_images: Whether we want the images to be augmented.
         """
         if total_batches == -1:
-            self.dataset.data_length = self.full_data_length
+            self.dataset.data_length = self.dataset.data_length
         else:
             self.dataset.data_length['test'] = total_batches * self.dataset.batch_size
         self.dataset.switch_set(set_name='test')
         self.dataset.set_augmentation(augment_images=augment_images)
-        for sample_id, sample_batched in enumerate(self.get_dataloader()):
+        for sample_id, sample_batched in enumerate(self.get_dataloader(self.dataset)):
             yield sample_batched
 

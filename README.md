@@ -80,6 +80,7 @@ We use three datasets, including Omniglot [1], CIFAR-FS [2], and Mini-ImageNet [
 Be sure to coordnate your reference path and the dataset path.
 
 
+
 [1] Brenden M Lake et al. 2015. Human-level concept learning through probabilistic program induction. Science 350, 6266 (2015), 1332–1338
 
 [2] Luca Bertinetto, Joao F Henriques, Philip HS Torr, and Andrea Vedaldi. 2019. Meta-learning with differentiable closed-form solvers. In International Conference on Learning Representations (ICLR 19)
@@ -115,11 +116,25 @@ for CIFAR-FS dataset:
 
 -       bash cifar-fs_DPAGRLR.sh
 
+4. Training non-private algorithm
+
+for Omniglot dataset: 
+
+-       bash omniglot_MAML.sh
+
+for mini_ImageNet dataset: 
+
+-       bash mini-imagenet_MAML.sh
+
+for CIFAR-FS dataset: 
+
+-       bash cifar-fs_MAML.sh
+
 
 These command will produce the test accuracy shown in Table 2 of the paper.
 
 ##  Estimated  Running Time 
-
+ We are running the code on a server equipped with a 3.3 GHz Intel Core i9-9820X CPU, and a GeForce RTX 2080 Ti GPU.
 The running time of  DPAGR
 | Dataset          |     Running time    |  
 |----------------------|:---------------------------:|

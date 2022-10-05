@@ -1,4 +1,4 @@
-/datasets/cifar_100
+/datasets/cifar_100*
 /datasets/mini_imagenet_full_size
 /datasets/*.json
 LICENSE
