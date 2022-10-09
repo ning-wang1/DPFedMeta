@@ -1,6 +1,6 @@
 # DPFedMeta
-Code for paper 'Squeezing More Utility via Adaptive Clipping on Deferentially Private Gradients in Federated Meta-Learning' ACSAC 2022
-
+Code for paper 'Squeezing More Utility via Adaptive Clipping on Deferentially Private Gradients in Federated Meta-Learning' ACSAC 2022. Our differentially private algorithm is based on the MAML implementation at 'https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch' [1]
+[1] Antreas Antoniou et al. 2019. How to train your MAML. In International Conference on Learning Representations (ICLR 19)
 ## The running platform
 - **Hardware:** a server equipped with a 3.3 GHz Intel Core i9-9820X CPU, three GeForce RTX 2080 Ti GPUs (a different CPU/GPU is ok if it support the Pytorch deep learning framewotk)
 - **Operating system:** Ubuntu 18.04.3 LTS (a different version of Ubuntu is ok if it support the Pytorch deep learning framewotk)
